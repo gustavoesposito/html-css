@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exércicio de Tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            width: 500px;
+        }
+        caption{
+            border: 1px solid black;
+            padding: 10px;
+            font-weight: bolder;
+            background-color:greenyellow;
+
+        }
+        th,td{
+ border: 1px solid black;
+             padding: 10px;
+             text-align: center;
+        }
+        .cNome{
+          color: white;
+        }
+        .cSexo{
+            background-color:greenyellow;
+ 
+        }
+     .cIdade{
+         color: white;
+
+     }
+     .cProf{
+        background-color:greenyellow;
+  }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabela</h1>
+    <table>
+        <colgroup>
+            <col class=" cNome">
+            <col class="cSexo">
+            <col class="cIdade">
+            <col class="cProf">
+        </colgroup>
+     <caption>Cadastro</caption>
+
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade </th>
+                <th scope="col">Profissão</th>
+            </tr>
+             
+            <tr>
+            <td>Marcelo</td>   
+            <td>M</td>         
+            <td>34</td>         
+            <td>Pedreiro</td>         
+            </tr>
+            
+            <tr>
+                <td>Marcela</td>
+                <td>F</td>
+                <td>23</td>
+                <td>Professora</td>
+            </tr>
+            <tr>
+                <td>Gustavo</td>
+                <td>M</td>
+                <td>18</td>
+                <td>Empreendedor</td>
+            </tr>
+            <tr>
+                <td>Márcia</td>
+                <td>M</td>
+                <td>22</td>
+                <td>Chefe de Cozinha</td>
+            </tr>
+            <tr>
+                <td>Pedro</td>
+                <td>M</td>
+                <td>21</td>
+                <td>Programador</td>
+            </tr>
+            <tr>
+                <td>Rafaela</td>
+                <td>F</td>
+                <td>19</td>
+                <td>Designer</td>
+            </tr>
+            </table>
+</body>
+</html>
